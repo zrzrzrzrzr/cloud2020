@@ -27,6 +27,7 @@ public class PaymentServiceImpl implements PaymentService{
         System.out.println("hello master");
         System.out.println("hello hot-fix");
         System.out.println("hello push");
+        System.out.println("hello pull");
         return paymentDao.getPaymentById(id);
     }
 }
