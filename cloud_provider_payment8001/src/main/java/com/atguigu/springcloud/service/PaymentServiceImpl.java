@@ -22,13 +22,13 @@ public class PaymentServiceImpl implements PaymentService{
 
     @Override
     public Payment getPaymentById(Long id) {
-        System.out.println("hello git2!");
+        /*System.out.println("hello git2!");
         System.out.println("hello git3!");
         System.out.println("hello master");
         System.out.println("hello hot-fix");
         System.out.println("hello push");
         System.out.println("hello pull");
-        System.out.println("hello gitee");
+        System.out.println("hello gitee");*/
         return paymentDao.getPaymentById(id);
     }
 }
