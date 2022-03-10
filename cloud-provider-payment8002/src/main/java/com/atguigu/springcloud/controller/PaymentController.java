@@ -25,7 +25,7 @@ public class PaymentController {
     public CommonResult create(@RequestBody Payment payment)
     {
         int result = paymentService.create(payment);
-        log.info("*****插入操作返回结果:" + result);
+        log.info("*****新增结果:" + result);
 
         if(result > 0)
         {
@@ -47,3 +47,4 @@ public class PaymentController {
         }
     }
 }
+
